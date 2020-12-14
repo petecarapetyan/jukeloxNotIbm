@@ -1,0 +1,12 @@
+{
+  "name": "FIXME",
+  "version": "1.0.0",
+  "description": "FIXME rocket source code",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "rocket start"
+  }
+}
