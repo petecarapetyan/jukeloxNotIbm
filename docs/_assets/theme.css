@@ -136,7 +136,7 @@ footer#main-footer {
 }
 
 .sales-pic {
-  background: white url(/_assets/fire.jpg);
+  background: black url(/_merged_assets/_static/images/fire.jpg);
   background-size: cover;
   height: 450px;
 }
