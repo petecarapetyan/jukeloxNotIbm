@@ -1,4 +1,4 @@
-Still very alpha but first "theme" sorta POC'd
+Still very alpha and waaay unfinished but first "theme" sorta POC'd
 
 https://walktownnet.web.app
 
