@@ -110,6 +110,10 @@ footer#main-footer {
   display: grid;
 }
 
+.ga-content4-main h1 {
+  margin-top: 20px
+}
+
 .sales-banner-panel {
   background: black;
   height: 450px;
@@ -333,6 +337,7 @@ ul {
 .sales-banner-txt {
   color: white;
 }
+
 
 h1.sales-banner-txt {
   font-weight: 600;
