@@ -1,82 +1,18 @@
-img {
-  max-width: 100%;
-}
-
-.story-panel-margins {
-  height: 100%;
-  margin: 0 15px 0;
-  display: grid;
-}
-
-.front-stories {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 20px;
-}
-
-.front-story {
-  display: grid;
-  grid-template-columns: auto;
-}
-
-.black-back{
-  background-color: black;
-}
-.grey-back{
-  background-color: whitesmoke;
-}
-.sales-banner-panel {
-  background: black;
-  height: 450px;
-}
-
-.sales-banner-margins {
-  margin: 0 15px 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.sales-banner {
-  width: 70%;
-  overflow: word;
-  display: grid;
-  grid-template-rows: auto;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.sales-button {
-  width: fit-content;
-  height: 30px;
-}
-
-.sales-pic {
-  background: black url(/_merged_assets/_static/images/fire.jpg);
-  background-size: cover;
-  height: 450px;
-}
-
-.story-panel {
-  background: white;
-  height: 450px;
-  margin: 30px 0 0;
-}
-
-.page-width {
-  max-width: 1600px;
-}
-.header-grid-area {
+#main-header.header-grid-area {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 30px;
+  margin: 0px 5px;
 }
+
 .sidebar-grid-area {
   margin-left: 1em; /* placeholder - not really needed */
 }
 
 .content-grid-area {
   background-color: white;
+  padding: 0px 5px;
 }
 
 .rocket-content {
@@ -86,7 +22,23 @@ img {
   border: solid black 3px;
   border-radius: 3px;
   font-size: 16px;
-  padding: 5px;
+}
+
+.banner {
+  margin: 10px 10%;
+  border: solid black;
+  background: black url(/_merged_assets/_static/images/alyssa-strohmann-2OlRSRLJPPU-unsplash_.jpg);
+  background-size: cover;
+  color: white;
+  font-size: 60px;
+}
+
+.site-banner {
+  background: black url(/_merged_assets/_static/images/alyssa-strohmann-2OlRSRLJPPU-unsplash_.jpg);
+  background-size: cover;
+  color: white;
+  font-size: 30px;
+  border: none;
 }
 
 .theme-able {
@@ -105,18 +57,25 @@ img {
   background-size: 200px;
 }
 
+.theme-standin {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.blank-header {
+  border-bottom: solid 0.1px;
+  border-top: solid 0.1px;
+}
+
 .theme-able p {
   margin: 0 0 5px 0;
 }
 
 html {
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 300;
-  font-size: 12px;
-  color: var(--black);
-  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
 }
 
 *,
@@ -136,4 +95,26 @@ h4,
 h5,
 h6 {
   margin: 0 0 5px 0;
+}
+
+.teaser-blurb {
+  padding: 10px;  
+  display: grid;
+  text-decoration: none;
+  align-content: start;
+}
+.teaser-thumb {
+  margin: 0px;
+}
+.teaser-title, 
+article a h3 {
+  text-transform: capitalize;
+}
+.teaser-blurb .teaser-content {
+  display: flex;
+}
+.teaser-text {
+  padding-left: 10px;
+  flex: 1;
+  font-size: 10;
 }
