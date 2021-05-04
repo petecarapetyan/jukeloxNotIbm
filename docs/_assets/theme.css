@@ -2,6 +2,10 @@ img {
   max-width: 100%;
 }
 
+#main-header a {
+  text-transform: none;
+}
+
 .story-panel-margins {
   height: 100%;
   margin: 0 15px 0;

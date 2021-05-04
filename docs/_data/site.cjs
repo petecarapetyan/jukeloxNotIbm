@@ -2,8 +2,8 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'OMG',
-    description: 'not-ibm is a customizeable theme, for the Rocket SSG',
+    name: 'walkTown.net',
+    description: 'walktown.net is demo site for the not-ibm rocket theme',
     socialLinks: [
       {
         name: 'GitHub',
@@ -18,5 +18,7 @@ module.exports = function () {
     iconColorMsapplicationTileColor: '#1d3557',
     iconColorThemeColor: '#1d3557',
     socialMediaImage: '/_assets/social-media-image.jpg',
+    analyticsUA: 'UA-52870008-10',
+    analyticsGA4: 'G-2QLHMGXF4D'
   };
 };
