@@ -1,13 +1,7 @@
-Still very alpha and waaay unfinished but first "theme" sorta POC'd
+# walktown.net
 
-https://walktownnet.web.app
+This repo is a personalized/customized version of the [not-ibm fins-rocket-theme](https://github.com/petecarapetyan/fins-rocket-themes/blob/main/not-ibm/src/docs/) code.
 
-This repo gives some vague idea of 
+## For more information on fins-rocket-themes
 
-- the number of files that need to be provided for a theme
-- sorta proof that existing files can be honored, or not stomped on
-
-The nightmare scenario would be something like copying style.css, changing two lines of code, and then whoever was maintaining style.css couldn't effect any improvements because it had already been copypasted via a fork into a theme. So far, this scenario has been avoided except:
-
-- home.njk - as expected
-- with-sidebar.njk - as expected
+This and other `fins-rocket-themes` are discussed [here](https://webappwriter.com/rocket-themes/) in more detail.
