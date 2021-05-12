@@ -2,8 +2,8 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'OMG',
-    description: 'not-ibm is a customizeable theme, for the Rocket SSG',
+    name: 'walkTown.net',
+    description: 'walkTown.net demos the `not-ibm` theme, a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',
