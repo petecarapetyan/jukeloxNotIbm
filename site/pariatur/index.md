@@ -1,10 +1,10 @@
 ---
 layout: layout-sidebar
-title: index
+title: Pariatur
 eleventyNavigation:
-  key: index
-  title: index
-  parent: pariatur
+  key: pariatur
+  title: Pariatur
+  # parent: pariatur
   # order: 42
 # FIXME - Values shown above are currently derived from the file path only, except order which is also commented out because it is optional. Correct as desired and delete comment(s).
 ---
