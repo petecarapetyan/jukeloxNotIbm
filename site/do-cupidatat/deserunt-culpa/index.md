@@ -1,12 +1,11 @@
 ---
 layout: layout-sidebar
-title: index
+title: Deserunt Culpa
 eleventyNavigation:
-  key: index
-  title: index
-  parent: deserunt-culpa
+  key: deserunt-culpa
+  title: Deserunt Culpa
+  parent: do-cupidatat
   # order: 42
-# FIXME - Values shown above are currently derived from the file path only, except order which is also commented out because it is optional. Correct as desired and delete comment(s).
 ---
 
 # Deserunt culpa

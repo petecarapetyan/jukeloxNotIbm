@@ -1,12 +1,11 @@
 ---
 layout: layout-sidebar
-title: do-cupidatat
+title: Do Cupidatat
 eleventyNavigation:
   key: do-cupidatat
-  title: do-cupidatat
-  # parent: do-cupidatat
+  title: Do Cupidatat
+
   # order: 42
-# FIXME - Values shown above are currently derived from the file path only, except order which is also commented out because it is optional. Correct as desired and delete comment(s).
 ---
 
 # Cupidatat

@@ -1,12 +1,11 @@
 ---
 layout: layout-sidebar
-title: index
+title: Duis Cupidatat
 eleventyNavigation:
-  key: index
-  title: index
-  parent: duis-cupidatat
+  key: duis-cupidatat
+  title: Duis Cupidatat
+  parent: pariatur
   # order: 42
-# FIXME - Values shown above are currently derived from the file path only, except order which is also commented out because it is optional. Correct as desired and delete comment(s).
 ---
 
 # Duis cupidatat
