@@ -5,7 +5,7 @@
   <div class="ga-head-l"></div>
   <header id="main-header" class="header-grid-area">
     {% block header %}
-      {% include 'partials/header.njk' %}
+      {% include 'block/header.njk' %}
     {% endblock header%}
   </header>
   <div class="ga-head-r"></div>
@@ -86,23 +86,21 @@
 
   <div class="grey-back ga-content5-l"></div>
   <div class="grey-back ga-content5-main">
-    {% block content %}
-      {% include 'partials/_layoutHome/content.njk' %}
-    {% endblock content %}
+    <div> figure this out
   </div>
   <div class="grey-back ga-content5-r"></div>
   <!-- footer -->
   <div class="ga-foot-main footerback">
     {% block footer %}
-      {% include 'partials/footer.njk' %}
+      {% include 'block/footer.njk' %}
     {% endblock footer %}
   </div>
   <div class="ga-foot-r footer-back"></div>
 
   <div class="sidebar-grid-area">
     {% block sidebar %}
-      {% include 'partials/_layoutHome/sidebar.njk' %}
+      {% include 'block/sidebar.njk' %}
     {% endblock sidebar %}
   </div>
-  {% include 'partials/bottom.njk' %}
+  {% include 'block/bottom.njk' %}
 {% endblock themeBody %}
