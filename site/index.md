@@ -12,7 +12,7 @@ callToActionItems:
     href: /nulla-nisi/
     img: >-
       <img class="bordered"
-      src="/static/images/bulksplash-aldebarans-dJlkMGUn9n4.jpg"
+      src="/static/images/bulksplash-amyshamblen-ptYrcELmA8g.jpg"
       alt="bulksplash-aldebarans-dJlkMGUn9n4.jpg" />
   - title: aute Lorem ad proident labore
     text: >-
@@ -48,8 +48,8 @@ teasers:
     href: /nulla-nisi/officia/
     img: >-
       <img class="bordered"
-      src="/static/images/bulksplash-ibrahimmushan-20CJCyPq4lE.jpg"
-      alt="bulksplash-ibrahimmushan-20CJCyPq4lE.jpg" />
+      src="/static/images/bulksplash-amyshamblen-ptYrcELmA8g.jpg"
+      alt="Voluptae" />
   - title: culpa id eu anim
     text: Sunt ad eiusmod tempor id in.
     href: /nulla-nisi/officia/
@@ -65,8 +65,8 @@ teasers:
     href: /nulla-nisi/laboris/
     img: >-
       <img class="bordered"
-      src="/static/images/bulksplash-archiecarlson-kiLBgRsAoiA.jpg"
-      alt="bulksplash-archiecarlson-kiLBgRsAoiA.jpg" />
+      src="/static/images/bulksplash-amyshamblen-N7zyWI9F0tU.jpg"
+      alt="REST" />
   - title: est et incididunt
     text: >-
       Sit non tempor commodo ad excepteur in minim ad officia. Incididunt
@@ -75,8 +75,8 @@ teasers:
     href: /pariatur/
     img: >-
       <img class="bordered"
-      src="/static/images/bulksplash-archiecarlson-kiLBgRsAoiA.jpg"
-      alt="bulksplash-archiecarlson-kiLBgRsAoiA.jpg" />
+      src="/static/images/bulksplash-bensow-S2QfaQN86w4.jpg"
+      alt="Keyboard" />
   - title: nulla veniam enim
     text: >-
       Sit quis in laborum ea consectetur ad laboris nulla. Velit dolore sunt
@@ -103,7 +103,7 @@ teasers:
     href: /pariatur/aliquip-excepteur/
     img: >-
       <img class="bordered"
-      src="/static/images/bulksplash-aldebarans-dJlkMGUn9n4.jpg"
+      src="/static/images/bulksplash-danilal-OOnwn7Ir9aU.jpg"
       alt="bulksplash-aldebarans-dJlkMGUn9n4.jpg" />
   - title: fugiat est quis
     text: >-
@@ -140,5 +140,19 @@ teasers:
       <img class="bordered"
       src="/static/images/bulksplash-ger46-CgkSaLNzc-8.jpg"
       alt="bulksplash-ger46-CgkSaLNzc-8.jpg" />
-
 ---
+
+# {{ title }}
+
+  {% for teaser in teasers %}
+    <article class="teaser-blurb">
+      <a href="{{teaser.href}}">
+        <h3 class="teaser-title">{{ teaser.title }}</h3>
+        <div class="teaser-content">
+          <div class="teaser-thumb">{{ teaser.img  }}</div>
+          <div class="teaser-text">{{ teaser.text  }}<div>
+        <div>
+      </a>
+    </article>
+  {% endfor %}
+
